@@ -1,0 +1,12 @@
+<?php
+
+if(Mage::getBlockSingleton('page/html_header')->getIsHomePage())
+    echo 'You are in Homepage!<br>';
+else
+    echo 'You are NOT in Homepage!<br>';
+
+echo "Nome del blocco: ".$this->getNameInLayout()."<br>";
+
+if($this->isProductPage())
+	$this->getAttributesOfProduct();
+

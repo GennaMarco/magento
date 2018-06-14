@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ITS_ProductLog>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Catalog/>
+                <Mage_Customer/>
+            </depends>
+        </ITS_ProductLog>
+    </modules>
+</config>

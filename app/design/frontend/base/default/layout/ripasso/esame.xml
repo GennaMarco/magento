@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <default>
+        <reference name="content">
+            <block type="ripasso_esame/blockclass" name="blockclass.block" before="-" template="ripasso/esame/templateEsame.phtml"/>
+        </reference>
+    </default>
+</layout>

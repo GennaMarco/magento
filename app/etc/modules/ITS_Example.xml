@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ITS_Example>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Catalog/>
+            </depends>
+        </ITS_Example>
+    </modules>
+</config>
+
+<!-- Questo significa che c'è un modulo Example di vendor ITS che è attivo che pesca da local e dipende a Mage_Catalog -->

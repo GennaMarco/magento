@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <MADEGE_Verifica>
+            <version>1.0.0</version>
+        </MADEGE_Verifica>
+    </modules>
+    <global>
+        <models>
+            <MADEGE_Verifica>
+                <class>MADEGE_Verifica_Model</class>
+            </MADEGE_Verifica>
+        </models>
+    </global>
+    <adminhtml>
+        <events>
+            <catalog_product_save_before>
+                <observers>
+                    <madege_verifica>
+                        <class>MADEGE_Verifica/observercustom</class>
+                        <method>onCatalogProductSaveBefore</method>
+                    </madege_verifica>
+                </observers>
+            </catalog_product_save_before>
+        </events>
+    </adminhtml>
+</config>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <MDG_Banner>
+            <version>1.0.0</version>
+        </MDG_Banner>
+    </modules>
+    <global>
+        <blocks>
+            <mdg_banner>
+                <class>MDG_Banner_Block</class>
+            </mdg_banner>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <mdg-banner>
+                    <file>mdg/banner.xml</file>
+                </mdg-banner>
+            </updates>
+        </layout>
+    </frontend>
+</config>

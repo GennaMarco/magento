@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Ripasso_Esame>
+            <version>1.0.0</version>
+        </Ripasso_Esame>
+    </modules>
+    <global>
+        <blocks>
+            <ripasso_esame>
+                <class>Ripasso_Esame_Block</class>
+            </ripasso_esame>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <ripasso-esame>
+                    <file>ripasso/esame.xml</file>
+                </ripasso-esame>
+            </updates>
+        </layout>
+    </frontend>
+</config>

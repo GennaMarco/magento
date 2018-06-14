@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<ITS_CustomBlock>
+			<codePool>local</codePool>
+			<active>true</active>
+		</ITS_CustomBlock>
+	</modules>	
+</config>
